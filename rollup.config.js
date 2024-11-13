@@ -13,7 +13,7 @@ export default {
   plugins: [
     resolve(),
     commonjs(),
-    typescript({ tsconfig: "./tsconfig.json" }),
+    typescript({ tsconfig: "tsconfig.json" }),
   ],
   onwarn: (warning, warn) => { // Suppress "use client" warnings 
     if (warning.code === 'MODULE_LEVEL_DIRECTIVE' && warning.message.includes('use client'))
