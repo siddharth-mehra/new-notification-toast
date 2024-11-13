@@ -1,0 +1,12 @@
+{
+        "compilerOptions": {
+          "jsx":"react",
+          "target": "ES2020",                          // Specify ECMAScript target version
+          "module": "ESNext",
+          "declaration":true,
+          "moduleResolution": "node",
+          "declarationDir":"./dist" ,                         // Specify module code generation
+          "strict":true
+        },
+}
+      
